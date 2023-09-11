@@ -46,7 +46,6 @@ Contributions are encouraged and welcomed! If you'd like to contribute to this r
 - Make your changes and test them thoroughly.
 - Create a pull request, explaining your changes and their significance.
  
-Before contributing, please review the Contribution Guidelines for more details.
 
 ## Code Quality
 I aim to provide clear, concise, and well-documented solutions. However, there may be multiple valid approaches to solving problems. If you have suggestions for improving code quality or optimizing solutions, please feel free to discuss them in the comments or open a pull request.
