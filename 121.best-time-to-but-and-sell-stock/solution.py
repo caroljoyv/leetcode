@@ -1,19 +1,13 @@
-prices = [1,2]
-
-min_ind = prices.index(min(prices))
-print(min_ind)
+prices = [7,1,3,5,6,4]
 
 profit = 0
-max_ind = 0
+buy = prices[0]
+for i in prices[1:]:
+    if i > buy:
+        profit =  max(profit,i - buy)
+    else:
+        buy = i
 
-for i in range(min_ind+1, len(prices)):
-    if prices[i] - prices[min_ind] > profit:
-        profit = prices[i] - prices[min_ind]
-        max_ind = i
-
-if max_ind > 0:
-    print(max_ind+1)
-else:
-    print(max_ind)
+print(profit)
 
 
