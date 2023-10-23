@@ -18,12 +18,10 @@ def no_adj(str):
         
     return True
 def main():
-    str = "12Caroloe!"
+    
     all = has_upper(str) and has_lower(str) and has_digit(str) and has_special(str)
     other = no_adj(str)
-    print(all)
-    print()
-    print(other)
+    return all and other
 
 
 
